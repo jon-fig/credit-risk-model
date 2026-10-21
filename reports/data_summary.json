@@ -1,0 +1,42 @@
+{
+  "rows": 149391,
+  "columns": 11,
+  "features": 10,
+  "target": "SeriousDlqin2yrs",
+  "target_rate": 0.066999,
+  "class_counts": {
+    "0": 139382,
+    "1": 10009
+  },
+  "missing_values": {
+    "RevolvingUtilizationOfUnsecuredLines": 0,
+    "age": 0,
+    "NumberOfTime30-59DaysPastDueNotWorse": 0,
+    "DebtRatio": 0,
+    "MonthlyIncome": 29221,
+    "NumberOfOpenCreditLinesAndLoans": 0,
+    "NumberOfTimes90DaysLate": 0,
+    "NumberRealEstateLoansOrLines": 0,
+    "NumberOfTime60-89DaysPastDueNotWorse": 0,
+    "NumberOfDependents": 3828
+  },
+  "missing_percentage": {
+    "RevolvingUtilizationOfUnsecuredLines": 0.0,
+    "age": 0.0,
+    "NumberOfTime30-59DaysPastDueNotWorse": 0.0,
+    "DebtRatio": 0.0,
+    "MonthlyIncome": 19.5601,
+    "NumberOfOpenCreditLinesAndLoans": 0.0,
+    "NumberOfTimes90DaysLate": 0.0,
+    "NumberRealEstateLoansOrLines": 0.0,
+    "NumberOfTime60-89DaysPastDueNotWorse": 0.0,
+    "NumberOfDependents": 2.5624
+  },
+  "sentinel_values": {
+    "NumberOfTime30-59DaysPastDueNotWorse": 225,
+    "NumberOfTimes90DaysLate": 225,
+    "NumberOfTime60-89DaysPastDueNotWorse": 225
+  },
+  "invalid_age_rows": 1,
+  "duplicate_rows_removed": 609
+}
